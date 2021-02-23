@@ -1,0 +1,148 @@
+*,*::before, *::after{
+  box-sizing: border-box;
+  font-family: 'Gotham Rounded', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+  background: linear-gradient(to right, rgb(255, 167, 35),rgb(115, 190, 222));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+ padding: 0;
+}
+
+.container{
+  max-width: 90%;
+  width: 1200px;
+  background-color: white;
+  box-shadow: 0px 5px  5px rgb(133, 210, 230);
+  border-radius: 5px;
+}
+
+.content{
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.header{
+  background: linear-gradient(to right, rgb(115, 190, 222),rgb(255, 167, 35));;
+  display: flex;
+  text-align: center;
+  height: 120px;
+  justify-content: center;
+  align-items: flex-end;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.icon-container{
+  position: relative;
+padding: 20px;
+background-color: white;
+top: 80px;
+border-radius: 50%;
+height: 150px;
+width: 150px;
+}
+
+
+.general-information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+
+}
+
+
+.status{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+
+.location{
+  font-size: 1.5rem;
+}
+
+.loc{
+  color: red;
+}
+
+.detail-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight:  lighter;
+  font-family: 'Source Sans Pro', sans-serif;;
+}
+
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  align-items: center;
+}
+
+
+.detail   .title{
+  font-size: 1.4rem;
+  flex-grow: 1;
+  font-weight: bold;
+  color: rgb(176,154,143);
+}
+
+
+.detail .value{
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+
+
+.detail.bordered{
+  border-left: 1px solid;
+  border-right: 1px solid
+}
+ .ico{
+   color: rgb(255, 167, 35);
+ }
+
+
+.city-search-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+.city-search{
+  margin-top: 40px;
+  font-size:  1.5rem;
+  outline: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100%;
+  color: rgb(104,104,104);
+}
+
+.pac-item{
+  font-size: 1rem;
+  padding: 10px 10px;
+}
+
+.pac-icon{
+  display: none;
+}
+
+.pac-item-query{
+  font-size: 1rem;
+  padding-right: 14px;
+}
